@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(to right, #b1b3ae, #b5a181, #ce826a, #da5c86, #ad53c7);
+}
+
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding:0 40px;
+
+}
+
+
+header .logo{
+    font-weight: 700;
+     
+}
+
+header .menu ul{
+    display: flex;
+    
+}
+header .menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu li a{
+    font-size: .8rem;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+.menu:hover, .menu-btn:hover {
+    font-size: 11px;
+}
+
+
+.menu-btn{
+    background-color: rgba(255,255,255, .3);
+    padding: 15px 25px;
+    border-radius: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 40px;*/
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#home{
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#home .info-section{
+    width: 50%;
+}
+#home .info-section h1{
+    font-size: 5rem;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 2rem;
+
+}
+#home .info-section h4{
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: black;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+
+}
+#home .info-section .call-actions{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.action-btn, .action-ghost-btn{
+    
+    font-size: .8rem;
+
+    background-color: rgba(255,255,255, .10);
+    padding: 15px 30px;
+    border-radius: 20px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 40px;*/
+
+    text-decoration: none;
+
+color: white;
+
+
+}
+.action-btn:hover, .action-ghost-btn:hover {
+    font-size: .9rem;
+}
+
+.action-btn{
+    background: white;
+    color: #da5c86;
+    margin-right: 10px;
+}
+
+.action-ghost-btn{ 
+    background-color: transparent;
+    
+    border: 1px solid white;
+    color: white;
+}
+
+
+#home .photos{
+    width: 50%;
+}
+
+
+
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photos img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+
+/*  #home .photos .girl{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+}*/
